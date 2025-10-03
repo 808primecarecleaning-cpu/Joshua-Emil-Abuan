@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PrimeCare General Cleaning — Driveway Sealing & Coating (Hawaii)</title>
+  <meta name="description" content="Hawaii's driveway sealing & coating specialists. Pressure washing, penetrating sealers, acrylic/epoxy/polyaspartic coatings. Free estimates." />
+  <meta name="theme-color" content="#0b6b5d" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="PrimeCare General Cleaning — Driveway Sealing & Coating (Hawaii)" />
+  <meta property="og:description" content="Pressure washing, sealing and premium coatings for driveways across the islands. Durable protection against salt, sun, and humidity." />
+  <meta property="og:type" content="website" />
+  <!-- Favicon (simple) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230b6b5d'/%3E%3Ctext x='50' y='57' font-size='48' text-anchor='middle' fill='white' font-family='Arial, Helvetica, sans-serif'%3EPC%3C/text%3E%3C/svg%3E" />
+
+  <style>
+    /* =========  Simple reset ========= */
+    :root{
+      --accent:#0b6b5d;
+      --accent-2:#e0f2ef;
+      --muted:#6b6b6b;
+      --bg:#fafafa;
+      --card:#ffffff;
+      --radius:12px;
+      --glass: rgba(255,255,255,0.6);
+      --max-width:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#111; background:
+      linear-gradient(180deg, #f8fffdf0 0%, #f3f9f6 50%, #ffffff 100%);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    a{color:var(--accent); text-decoration:none}
+    img{max-width:100%;height:auto;display:block;border-radius:8px}
+
+    /* ========= Container ========= */
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:36px 20px}
+
+    /* ========= Header ========= */
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:54px;height:54px;border-radius:12px;background:var(--accent);display:flex;
+      align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px;box-shadow:0 6px 18px rgba(11,107,93,0.12)
+    }
+    nav{display:flex;gap:18px;align-items:center}
+    .btn-primary{background:var(--accent);color:white;padding:10px 16px;border-radius:10px;border:0;font-weight:600;cursor:pointer}
+    .btn-ghost{background:transparent;color:var(--accent);padding:8px 12px;border-radius:10px;border:1px solid rgba(11,107,93,0.12);cursor:pointer}
+
+    /* ========= Hero ========= */
+    .hero{
+      margin:34px 0;display:grid;grid-template-columns:1fr;gap:18px;align-items:center;
+      background:linear-gradient(180deg, rgba(11,107,93,0.03), rgba(11,107,93,0.01));
+      padding:22px;border-radius:14px;
+    }
+    .hero .kicker{display:inline-block;background:var(--accent-2);color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px}
+    .hero h1{margin:6px 0 8px;font-size:28px}
+    .hero p{margin:0;color:var(--muted)}
+    .hero-cta{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+
+    /* ========= Grid cards ========= */
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(18,18,18,0.04)}
+    .service{display:flex;gap:12px;align-items:flex-start}
+
+    /* ========= Pricing table ========= */
+    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:12px}
+    .price-card{padding:18px;border-radius:12px;border:1px solid rgba(11,107,93,0.06);background:linear-gradient(180deg,#fff,#fbfffc)}
+    .price-card h3{margin:0 0 8px}
+    .price{font-size:20px;font-weight:700;color:var(--accent);margin-top:6px}
+
+    /* ========= Process ========= */
+    .process{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .step .num{background:var(--accent);color:#fff;width:36px;height:36px;border-radius:8px;display:grid;place-items:center;font-weight:700}
+
+    /* ========= Gallery ========= */
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+    .gallery img{height:100px;object-fit:cover;border-radius:8px}
+
+    /* ========= Contact ========= */
+    .contact{display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:18px}
+    .form{padding:16px;background:var(--card);border-radius:12px;border:1px solid rgba(0,0,0,0.03)}
+    label{display:block;font-size:13px;margin-top:8px;color:var(--muted)}
+    input[type=text], input[type=email], textarea, select{
+      width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin-top:6px;font-size:14px;
+    }
+    textarea{min-height:120px;resize:vertical}
+    .contact-card{padding:18px;border-radius:12px;background:linear-gradient(180deg,var(--glass),#ffffff);box-shadow:0 6px 20px rgba(11,107,93,0.04)}
+    .small{font-size:13px;color:var(--muted)}
+
+    /* ========= Footer ========= */
+    footer{margin:28px 0 60px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* ========= Responsive ========= */
+    @media (max-width:980px){
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .pricing{grid-template-columns:repeat(2,1fr)}
+      .gallery{grid-template-columns:repeat(3,1fr)}
+      .contact{grid-template-columns:1fr}
+    }
+    @media (max-width:600px){
+      header{flex-direction:column;align-items:flex-start;gap:12px}
+      .hero h1{font-size:22px}
+      .grid{grid-template-columns:1fr}
+      .pricing{grid-template-columns:1fr}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+      .logo{width:46px;height:46px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header aria-label="Main header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">PC</div>
+        <div>
+          <div style="font-weight:700">PrimeCare General Cleaning</div>
+          <div style="font-size:13px;color:var(--muted)">Driveway sealing & premium coatings — Hawaii</div>
+        </div>
+      </div>
+
+      <nav aria-label="Top navigation">
+        <a href="#services" class="small">Services</a>
+        <a href="#pricing" class="small">Pricing</a>
+        <a href="#process" class="small">Process</a>
+        <a href="#contact" class="small">Contact</a>
+        <a class="btn-primary" href="mailto:hello@primecare.example?subject=Free%20Estimate">Get a Free Estimate</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div>
+        <span class="kicker">Local • Licensed • Insured</span>
+        <h1 id="hero-heading">Driveway sealing & coatings built for Hawaii weather</h1>
+        <p>Pressure washing, penetrating sealers, acrylic/epoxy/polyaspartic coatings — protection against sun, salt, and humidity. Free, no-pressure on-site estimates across Oahu, Maui, Kauai & Big Island.</p>
+
+        <div class="hero-cta">
+          <a class="btn-primary" href="mailto:hello@primecare.example?subject=Estimate%20Request">Request a Free Estimate</a>
+          <a class="btn-ghost" href="#pricing">View Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" style="margin-top:18px">
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:12px">
+        <h2 style="margin:0">Our Services</h2>
+        <div class="small">Licensed | Insured | 5-star local reviews</div>
+      </div>
+
+      <div class="grid" style="margin-top:12px">
+        <div class="card service" aria-labelledby="svc1">
+          <div aria-hidden="true" style="width:48px;height:48px;border-radius:10px;background:linear-gradient(180deg,var(--accent),#057f6b);display:grid;place-items:center;color:white;font-weight:700">PW</div>
+          <div>
+            <h3 id="svc1" style="margin:0 0 6px">Pressure Washing</h3>
+            <p class="small" style="margin:0">High-pressure cleaning to remove mold, mildew, algae, and stains. Essential prep for sealing or coating.</p>
+          </div>
+        </div>
+
+        <div class="card service" aria-labelledby="svc2">
+          <div aria-hidden="true" style="width:48px;height:48px;border-radius:10px;background:linear-gradient(180deg,#ffd89b,#ff7c5f);display:grid;place-items:center;color:white;font-weight:700">SE</div>
+          <div>
+            <h3 id="svc2" style="margin:0 0 6px">Penetrating Sealer</h3>
+            <p class="small" style="margin:0">Silane/Siloxane sealer for long-lasting water & salt protection — maintains natural concrete look.</p>
+          </div>
+        </div>
+
+        <div class="card service" aria-labelledby="svc3">
+          <div aria-hidden="true" style="width:48px;height:48px;border-radius:10px;background:linear-gradient(180deg,#6a82fb,#fc5c7d);display:grid;place-items:center;color:white;font-weight:700">CO</div>
+          <div>
+            <h3 id="svc3" style="margin:0 0 6px">Coatings (Acrylic / Epoxy / Polyaspartic)</h3>
+            <p class="small" style="margin:0">Decorative & protective topcoats: colored finishes, texture, and heavy-duty wear resistance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" style="margin-top:20px">
+      <h2 style="margin:0 0 8px">Pricing Estimates (Typical Hawaii driveway — 800 sq. ft.)</h2>
+      <p class="small" style="margin:6px 0 12px">Prices shown are estimates — final quote depends on condition, island, and prep needed.</p>
+
+      <div class="pricing" role="list">
+        <div class="price-card" role="listitem" aria-labelledby="p-seal">
+          <h3 id="p-seal">Sealing (Silane/Siloxane)</h3>
+          <div class="price">$1,080 – $2,040 <span class="small" style="font-weight:400">total</span></div>
+          <ul class="small" style="margin-top:8px;padding-left:16px">
+            <li>Includes pressure washing + sealer + labor</li>
+            <li>Lifespan: 5–7 years</li>
+            <li>Best value for protection & maintenance</li>
+          </ul>
+        </div>
+
+        <div class="price-card" role="listitem" aria-labelledby="p-acrylic">
+          <h3 id="p-acrylic">Acrylic Coating</h3>
+          <div class="price">$1,880 – $3,640 <span class="small" style="font-weight:400">total</span></div>
+          <ul class="small" style="margin-top:8px;padding-left:16px">
+            <li>Economical color & texture option</li>
+            <li>Lifespan: 2–4 years</li>
+            <li>Good curb appeal for short-to-mid term</li>
+          </ul>
+        </div>
+
+        <div class="price-card" role="listitem" aria-labelledby="p-poly">
+          <h3 id="p-poly">Polyaspartic / Polyurethane</h3>
+          <div class="price">$5,080 – $8,440 <span class="small" style="font-weight:400">total</span></div>
+          <ul class="small" style="margin-top:8px;padding-left:16px">
+            <li>Premium durability & UV resistance</li>
+            <li>Lifespan: 7–10+ years</li>
+            <li>Best long-term investment for finish & durability</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:12px" class="card small">
+        <strong>Want an exact quote?</strong> We do free on-site estimates — reply to the button below to schedule.
+        <div style="margin-top:10px">
+          <a class="btn-primary" href="mailto:hello@primecare.example?subject=Schedule%20Estimate">Schedule Free On-site Estimate</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" style="margin-top:20px">
+      <h2 style="margin:0 0 8px">Our Process</h2>
+      <div class="process">
+        <div class="step card" aria-labelledby="st1">
+          <div class="num">1</div>
+          <div>
+            <h4 id="st1" style="margin:0 0 6px">Inspect & Quote</h4>
+            <p class="small" style="margin:0">We inspect stains, cracks, and drainage and provide a written estimate — free on-site or via photos.</p>
+          </div>
+        </div>
+
+        <div class="step card" aria-labelledby="st2">
+          <div class="num">2</div>
+          <div>
+            <h4 id="st2" style="margin:0 0 6px">Prep — Pressure Wash & Repair</h4>
+            <p class="small" style="margin:0">High-pressure cleaning, oil/stain treatment, and crack patching to ensure adhesion and longevity.</p>
+          </div>
+        </div>
+
+        <div class="step card" aria-labelledby="st3">
+          <div class="num">3</div>
+          <div>
+            <h4 id="st3" style="margin:0 0 6px">Apply Sealer / Coating</h4>
+            <p class="small" style="margin:0">We use industrial-grade materials and follow manufacturer cure times for maximum performance.</p>
+          </div>
+        </div>
+
+        <div class="step card" aria-labelledby="st4">
+          <div class="num">4</div>
+          <div>
+            <h4 id="st4" style="margin:0 0 6px">Final QC & Follow-up</h4>
+            <p class="small" style="margin:0">Final inspection and tips for maintenance. Warranty options available on coatings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section aria-label="Gallery" style="margin-top:20px">
+      <h2 style="margin:0 0 8px">Photo Gallery</h2>
+      <p class="small" style="margin:0 0 8px">Before / after examples. Click images to replace with your own.</p>
+
+      <div class="gallery" role="list">
+        <!-- REPLACE SRC with real photos -->
+        <img src="https://via.placeholder.com/400x300?text=Before+1" alt="Before - driveway with algae" />
+        <img src="https://via.placeholder.com/400x300?text=After+1" alt="After - cleaned and sealed driveway" />
+        <img src="https://via.placeholder.com/400x300?text=Coating+1" alt="Coating - colored finish example" />
+        <img src="https://via.placeholder.com/400x300?text=Detail+1" alt="Close up - texture detail" />
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="margin-top:20px">
+      <h2 style="margin:0 0 8px">Contact & Booking</h2>
+      <div class="contact" role="region" aria-labelledby="contact">
+        <form class="form" onsubmit="return handleFormSubmit(event)" aria-label="Estimate request form">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required placeholder="Jane Appleseed" />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="text" placeholder="808-555-5555" />
+          <label for="service">Service interested in</label>
+          <select id="service" name="service" required>
+            <option value="sealing">Sealing — Penetrating Sealer</option>
+            <option value="acrylic">Acrylic Coating</option>
+            <option value="epoxy">Epoxy Coating</option>
+            <option value="poly">Polyaspartic / Polyurethane</option>
+            <option value="other">Other / Not sure</option>
+          </select>
+
+          <label for="notes">Address & notes</label>
+          <textarea id="notes" name="notes" placeholder="Address, driveway size (approx sq ft), visible stains or cracks..."></textarea>
+
+          <div style="display:flex;gap:10px;align-items:center;margin-top:12px">
+            <button class="btn-primary" type="submit">Request Estimate</button>
+            <button type="button" class="btn-ghost" onclick="mailtoQuick()">Email Us</button>
+          </div>
+          <div style="margin-top:10px" class="small">We'll reply within 1 business day. If urgent, call: <strong>(808) 555-0123</strong></div>
+        </form>
+
+        <aside class="contact-card" aria-label="Contact details">
+          <h3 style="margin:0 0 8px">PrimeCare — Hawaii</h3>
+          <div class="small">Phone: <a href="tel:+18085550123">(808) 555-0123</a></div>
+          <div class="small">Email: <a href="mailto:hello@primecare.example">hello@primecare.example</a></div>
+          <div style="margin-top:12px" class="small">
+            Serving Oahu, Maui, Kauai & Big Island. Licensed and insured. Ask about warranties for coatings.
+          </div>
+          <hr style="margin:12px 0;border:none;border-top:1px solid rgba(0,0,0,0.06)" />
+          <div class="small"><strong>Quick tips:</strong>
+            <ul style="margin:8px 0 0;padding-left:16px">
+              <li>Avoid washing for 48–72 hrs after a coating cure window</li>
+              <li>Sealers are cost-effective; coatings are an investment</li>
+              <li>We offer combo discounts for pressure washing + sealing/coating</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> PrimeCare General Cleaning — Proudly serving Hawaii • <a href="#privacy">Privacy</a>
+    </footer>
+  </div>
+
+  <script>
+    // small helpers: form -> mailto fallback and minimal validation + year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function mailtoQuick(){
+      window.location.href = 'mailto:hello@primecare.example?subject=Quick%20Question';
+    }
+
+    function handleFormSubmit(e){
+      e.preventDefault();
+      const form = e.target;
+      const name = form.name.value.trim();
+      const email = form.email.value.trim();
+      const phone = form.phone.value.trim();
+      const service = form.service.value;
+      const notes = form.notes.value.trim();
+
+      if(!name || !email){
+        alert('Please provide your name and email.');
+        return false;
+      }
+
+      // Build mailto - ensures recipients get a copy even if form backend not configured
+      const subject = encodeURIComponent('Estimate Request — ' + service + ' — ' + name);
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nNotes/Address:\n${notes}`
+      );
+
+      // open user's email client with filled message
+      const mailto = `mailto:hello@primecare.example?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+
+      // Optionally show a friendly local confirmation
+      alert('Estimate request opened in your email client. If nothing opened, email hello@primecare.example directly.');
+
+      return false;
+    }
+  </script>
+</body>
+</html>
